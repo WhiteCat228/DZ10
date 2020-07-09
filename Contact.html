@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!-- Favicon -->
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <title>GAMES</title>
+  <title>Контакты</title>
 </head>
 <body>
   <!-- HEADER -->
@@ -34,51 +34,50 @@
   <body>
 
 
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
-        <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- menu -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">
-                  <i class="fas fa-home"></i>
-                  Главная
-                </a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="about.html">
-                  <i class="far fa-address-card"></i>
-                  О мне
-                </a>
-              </li>
-              <!-- dropdown menu -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="far fa-address-book"></i>
-                  Блог
-                </a>
-                <div class="dropdown-menu" id="custom-dropdown-menu">
-                  <a class="dropdown-item" href="post1.html">Tom Clancy’s Rainbow Six: Siege</a>
-                  <a class="dropdown-item" href="post2.html">Apex Legends</a>
-                </div>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="contact.html">
-                  <i class="fas fa-angle-double-right"></i>
-                  Контакты
-                </a>
-              </li>
-            </ul>
-          </div>
-          <!-- /menu -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-dark" href="index.html">
+                <i class="fas fa-home"></i>
+                Главная
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="about.html">
+                <i class="far fa-address-card"></i>
+                О мне
+              </a>
+            </li>
+            <!-- dropdown menu -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="far fa-address-book"></i>
+                Блог
+              </a>
+              <div class="dropdown-menu" id="custom-dropdown-menu">
+                <a class="dropdown-item" href="post1.html">Tom Clancy’s Rainbow Six: Siege</a>
+                <a class="dropdown-item" href="post2.html">Apex Legends</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="contact.html">
+                <i class="fas fa-angle-double-right"></i>
+                Контакты
+              </a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <!-- /Navbar -->
-
+        <!-- /menu -->
+      </div>
+    </nav>
+    <!-- /Navbar -->
 
 
   </body>
@@ -91,10 +90,25 @@
       <div class="row">
 
       <!-- POSTS -->
-      <div class="col-md-9">
+      <div class="col-md-9 customtext">
           <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl&pli=1#inbox"class="text-dark">Email: moiseevasy@gmail.com</a>
           <br>
           Номер телефона: +380507260193
+          <hr>
+          <p>
+            Если хотите,я могу вам сам написать. Для этого заполните форму.
+          </p>
+          <div class="col-md-12 pb-3">
+            <input type="text" class="form-control input" name="name" data-form-field="Name" placeholder="Your Name" required="">
+          </div>
+          <!-- Phone -->
+          <div class="col-md-12 pb-3">
+            <input type="tel" class="form-control input" name="phone" data-form-field="Phone" placeholder="Phone" required="">
+          </div>
+          <!-- Email -->
+          <div class="col-md-12 pb-3">
+            <input type="email" class="form-control input" name="email" data-form-field="Email" placeholder="Email" required="">
+          </div>
       </div>
 
       <!-- ASIDE -->
@@ -115,26 +129,24 @@
   </div>
 </main>
 
-  <!-- FOOTER -->
+<!-- FOOTER -->
   <footer class="border-top bg-dark">
-    <!-- Logo - About - Contact -->
-    <div class="row py-3 text-light">
-      <!-- Logo -->
+    <div class="container">
+      <!-- Logo - About - Contact -->
+      <div class="row py-3 text-light">
+
+        <!-- Logo -->
         <div class="col-md-4">
           <img src="img/LOGO.png" alt="Logo" width="250" class="img-fluid">
         </div>
-
-
 
         <!-- About -->
         <div class="col-md-4">
           <h3>О нас</h3>
           <p>
-              Школьник, который учиться в Шаге и 35 школе.
+           Школьник, который учиться в Шаге и 35 школе.
           </p>
         </div>
-
-
 
           <!-- Contact me -->
           <div class="col-md-4">
@@ -148,15 +160,21 @@
               <p><strong><a>Номер телефона: +380507260193</a></strong></p>
             </p>
           </div>
+
+
+
+      </div>
+
+      <!-- Copyright -->
+      <div class="row py-3 d-flex justify-content-center border-top">
+        <small class="d-block text-light">
+          Copyright &copy; 2025 Moiseyeyv Vasya Blog
+        </small>
+      </div>
+
     </div>
 
 
-    <!-- Copyright -->
-    <div class="row py-3 d-flex justify-content-center border-top">
-      <small class="d-block text-light">
-        Copyright &copy; 2025 Rob Smith Blog
-      </small>
-    </div>
   </footer>
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -8,6 +8,7 @@
   <!-- Favicon -->
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <title>GAMES</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
   <!-- HEADER -->
@@ -15,108 +16,111 @@
     <div class="shadow-sm rounded bg-dark">
       <img class="d-block mx-auto" src="img/LOGO.png" width="200" draggable="false" alt="Logo">
     </div>
+
+
+
+
+          <!-- Navbar -->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- menu -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link text-dark" href="index.html">
+                      <i class="fas fa-home"></i>
+                      Главная
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="about.html">
+                      <i class="far fa-address-card"></i>
+                      О мне
+                    </a>
+                  </li>
+                  <!-- dropdown menu -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="far fa-address-book"></i>
+                      Блог
+                    </a>
+                    <div class="dropdown-menu" id="custom-dropdown-menu">
+                      <a class="dropdown-item" href="post1.html">Tom Clancy’s Rainbow Six: Siege</a>
+                      <a class="dropdown-item" href="post2.html">Apex Legends</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="contact.html">
+                      <i class="fas fa-angle-double-right"></i>
+                      Контакты
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /menu -->
+            </div>
+          </nav>
+          <!-- /Navbar -->
+
   </header>
-  <!DOCTYPE html>
-  <html lang="en">
+
+  <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <!-- Сarousel Indicators -->
+      <!-- Сarousel Indicators -->
+       <ol class="carousel-indicators">
+         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+       </ol>
 
 
-
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
-        <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- menu -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">
-                  <i class="fas fa-home"></i>
-                  Главная
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">
-                  <i class="far fa-address-card"></i>
-                  О мне
-                </a>
-              </li>
-              <!-- dropdown menu -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="far fa-address-book"></i>
-                  Блог
-                </a>
-                <div class="dropdown-menu" id="custom-dropdown-menu">
-                  <a class="dropdown-item" href="post1.html">Tom Clancy’s Rainbow Six: Siege</a>
-                  <a class="dropdown-item" href="post2.html">Apex Legends</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">
-                  <i class="fas fa-angle-double-right"></i>
-                  Контакты
-                </a>
-              </li>
-            </ul>
+       <!-- Carousel Inner -->
+       <!-- Carousel Inner -->
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One -->
+          <div class="carousel-item active">
+            <img class="d-block w-100 mh-100" src="https://fanatical.imgix.net/product/original/b5ef83b8-73d9-4df2-8bdb-11cf01213a89.jpeg?auto=compress,format&w=400&fit=max" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Tom Clancy’s Rainbow Six: Siege</h3>
+              <p>Первый пост</p>
+            </div>
           </div>
-          <!-- /menu -->
+          <!-- Slide Two -->
+          <div class="carousel-item">
+            <img class="d-block w-100 mh-100" src="https://hi-tech.ua/wp-content/uploads/2019/08/Apex-Legends.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Apex Legends</h3>
+              <p>Второй пост</p>
+            </div>
+          </div>
+          <!-- Slide Three -->
+          <div class="carousel-item">
+            <img class="d-block w-100 mh-100" src="https://hi-tech.ua/wp-content/uploads/2019/10/Call-of-Duty-Modern-Warfare.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Call of duty modern warfare</h3>
+              <p>Будующий пост</p>
+            </div>
+          </div>
         </div>
-      </nav>
-      <!-- /Navbar -->
-
-      <!-- Carousel -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <!-- Сarousel Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-
-         <!-- Carousel Inner -->
-         <div class="carousel-inner" role="listbox">
-           <!-- Slide One -->
-           <div class="carousel-item active">
-             <img class="d-block w-100 mh-100" src="https://fanatical.imgix.net/product/original/b5ef83b8-73d9-4df2-8bdb-11cf01213a89.jpeg?auto=compress,format&w=400&fit=max" alt="First slide">
-             <div class="carousel-caption d-none d-md-block">
-               <h3>Tom Clancy’s Rainbow Six: Siege</h3>
-               <p>Первый пост</p>
-             </div>
-           </div>
-           <!-- Slide Two -->
-           <div class="carousel-item">
-             <img class="d-block w-100 mh-100" src="https://hi-tech.ua/wp-content/uploads/2019/08/Apex-Legends.jpg" alt="Second slide">
-             <div class="carousel-caption d-none d-md-block">
-               <h3>Apex Legends</h3>
-               <p>Второй пост</p>
-             </div>
-           </div>
-           <!-- Slide Three -->
-           <div class="carousel-item">
-             <img class="d-block w-100 mh-100" src="https://sneg.tv/wp-content/uploads/2020/02/call-of-duty-modern-warfare-xbox-990x515.jpg" alt="Third slide">
-             <div class="carousel-caption d-none d-md-block">
-               <h3>Call of duty modern warfare</h3>
-               <p>Будующий пост</p>
-             </div>
-           </div>
-         </div>
-
-
-         <!-- Carousel Control -->
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-          </a>
 
 
 
+       <!-- Carousel Control -->
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
 
+
+     </div>
   <!-- MAIN -->
   <main class="pt-3">
     <div class="container">
@@ -125,13 +129,13 @@
       <!-- POSTS -->
       <div class="col-md-9">
         <!-- Spider-Man -->
-        <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
-          <img class="card-img-left flex-auto d-none d-md-block" height="250" src="https://cdn.igromania.ru/mnt/articles/e/f/7/3/7/6/27304/html/img/dda0e67ec1933427.jpg" alt="Card imagecap">
+        <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250 ">
+          <img class="col-7 card-img-left flex-auto d-none d-md-block" height="250" src="https://cdn.igromania.ru/mnt/articles/e/f/7/3/7/6/27304/html/img/dda0e67ec1933427.jpg" alt="Card imagecap">
           <div class="card-body d-flex flex-column align-items-start">
             <h3 class="card-title mb-0 customh3">
               Tom Clancy’s Rainbow Six: Siege
             </h3>
-            <p class="card-text mb-auto customtext">
+            <p class="card-text mb-auto customtext row-6">
               Как бы скверно ни играли вы или ваши напарники, любая стычка в <a href="#" class="text-dark" data-toggle="tooltip" data-trigger="focus" title="Тактический шутер от первого лица, разработанный Ubisoft для Microsoft Windows, Xbox One и PlayStation 4." data-original-title="">Rainbow Six: Siege</a> похожа на сцену из фильм
               про SWAT. Вот пятеро отважных спецов крадутся по захваченному полицейскому участку.
               Замечают, что дверь в одну из комнат отгорожена раздвижной заслонкой, а из соседней стены торчат анкера — вот
@@ -144,33 +148,18 @@
         </div>
 
       <!-- Spider-Man -->
-      <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
-        <img class="card-img-left flex-auto d-none d-md-block" height="250" src="https://i2.wp.com/yamaika.biz/s/wp-content/uploads/2019/05/apex1.jpg?w=1708&ssl=1" alt="Card imagecap">
+      <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250 ">
+        <img class="col-7 card-img-left flex-auto d-none d-md-block" height="250" src="https://i2.wp.com/yamaika.biz/s/wp-content/uploads/2019/05/apex1.jpg?w=1708&ssl=1" alt="Card imagecap">
         <div class="card-body d-flex flex-column align-items-start">
           <h3 class="card-title mb-0 customh3">
             Apex Legends
           </h3>
-          <p class="card-text mb-auto customtext">
+          <p class="card-text mb-auto customtext row-6">
             Королевские битвы сейчас не делает только ленивый. На волне хайпа, поднятого <a href="#" class="text-dark" data-toggle="tooltip" data-trigger="focus" title="Mногопользовательская онлайн-игра в жанре королевской битвы, разрабатываемая и издаваемая студией PUBG Corporation, дочерней компанией корейского издателя Bluehole." data-original-title="">PUBG</a> и Fortnite, ворваться в новый жанр норовит каждый — от крупных издателей до никому не известных студий. Выглядит всё это как бег за уходящим поездом, поэтому неудивительно, что тренд на подобные проекты давно уже стал предметом насмешек. Анонс любой игры, посвящённой данному режиму, вызывает вполне однозначную реакцию: уважаемые разработчики, ничего нового в этом жанре вы уже придумать не сможете, займитесь чем-нибудь другим!
 
             Оказывается, смогут. Да так, что Epic Games и PUBG Corp. придётся крепко задуматься над тем, как бороться с дерзким новичком. Встречайте нового короля — Apex Legends.
           </p>
           <a href="Post2.html" class="btn btn-outline-dark custombtn">Read more</a>
-        </div>
-      </div>
-      </div>
-
-      <!-- ASIDE -->
-      <div class="col-md-3 mx-auto mb-3 text-center">
-        <div class="blog-sidebar p-2 rounded">
-          <!-- About -->
-          <h2 class="customh3">О блогере</h2>
-          <img src="img/myAvatar.png" class="img-fluid rounded-circle" width="150" alt="Rob Smith">
-          <h4 class="customh3">Вася</h4>
-          <p class="customtext">
-            Молодой парень, 15 лет,начал свой превый блог.
-            Играю в игры и пишу рассказы о них.
-          </p>
         </div>
       </div>
 
@@ -205,53 +194,57 @@
    </div>
    <!-- /modal -->
  </div>
-  <!-- FOOTER -->
-  <footer class="border-top bg-dark">
-    <!-- Logo - About - Contact -->
-    <div class="row py-3 text-light">
-      <!-- Logo -->
-        <div class="col-md-4">
-          <img src="img/LOGO.png" alt="Logo" width="250" class="img-fluid">
-        </div>
+ <!-- FOOTER -->
+   <footer class="border-top bg-dark">
+     <div class="container">
+       <!-- Logo - About - Contact -->
+       <div class="row py-3 text-light">
+
+         <!-- Logo -->
+         <div class="col-md-4">
+           <img src="img/LOGO.png" alt="Logo" width="250" class="img-fluid">
+         </div>
+
+         <!-- About -->
+         <div class="col-md-4">
+           <h3>О нас</h3>
+           <p>
+            Школьник, который учиться в Шаге и 35 школе.
+           </p>
+         </div>
+
+           <!-- Contact me -->
+           <div class="col-md-4">
+             <h3>Контакты</h3>
+             <p>
+               Если вам интересна моя работа,
+               или вы просто хотите сказать "Привет"
+               пишите на почту.
+               <br>
+               <strong>Email: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="text-white">moiseevasy@gmail.com</a></strong>
+               <p><strong><a>Номер телефона: +380507260193</a></strong></p>
+             </p>
+           </div>
 
 
 
-        <!-- About -->
-        <div class="col-md-4">
-          <h3>О нас</h3>
-          <p>
-              Школьник, который учиться в Шаге и 35 школе.
-          </p>
-        </div>
+       </div>
+
+       <!-- Copyright -->
+       <div class="row py-3 d-flex justify-content-center border-top">
+         <small class="d-block text-light">
+           Copyright &copy; 2025 Moiseyeyv Vasya Blog
+         </small>
+       </div>
+
+     </div>
 
 
-
-          <!-- Contact me -->
-          <div class="col-md-4">
-            <h3>Контакты</h3>
-            <p>
-              Если вам интересна моя работа,
-              или вы просто хотите сказать "Привет"
-              пишите на почту.
-              <br>
-              <strong>Email: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="text-white">moiseevasy@gmail.com</a></strong>
-              <p><strong><a>Номер телефона: +380507260193</a></strong></p>
-            </p>
-          </div>
-    </div>
-
-
-    <!-- Copyright -->
-    <div class="row py-3 d-flex justify-content-center border-top">
-      <small class="d-block text-light">
-        Copyright &copy; 2025 Василий
-      </small>
-    </div>
-  </footer>
+   </footer>
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
   </html>
 
